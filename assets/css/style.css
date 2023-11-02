@@ -361,7 +361,18 @@ nav ul li a {
 
 .portofolio-section .card-wrap .card img {
     width: 100%;
+    height: 180px;
+    object-fit: cover;
     border-radius: 10px;
+    margin-bottom: .5rem;
+}
+
+.portofolio-section .card-wrap .card h3 {
+    color: var(--color-font-black);
+}
+
+.portofolio-section .card-wrap .card p {
+    margin-top: auto;
 }
 
 
