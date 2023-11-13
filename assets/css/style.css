@@ -12,6 +12,10 @@
     box-sizing: border-box;
 } 
 
+html,body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #FAE7C9;
@@ -83,7 +87,7 @@ nav ul li a {
 .hero-section {
     background-image: url('../img/hero-bg.png');
     background-size: 100%;
-    background-position-y: -65px;
+    /* background-position-y: px; */
     background-repeat: no-repeat;
 }
 
@@ -221,6 +225,10 @@ nav ul li a {
     width: 50%;
     text-align: center;
     color: var(--color-font-black);
+}
+
+.about-section .text-wrap .info-wrap .info p {
+    font-size: 1rem;
 }
 
 .about-section .text-wrap .education {
